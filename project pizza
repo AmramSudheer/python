@@ -1,0 +1,27 @@
+print("-->>> welcome to pizza hut <<<--")
+size = (input("  1,enter the size s,m,l :- "))
+pepper = (input("  2,do you want pepper y for s n for no :- "))
+cheese = (input("  3,do you want cheese y for s n for no :- "))
+bill = 0
+if size == "s":
+    bill += 100
+elif size == "m":
+    bill += 150
+elif size == "l":
+    bill += 200
+else:
+        print("you entered wrong size")   
+if pepper == "y":
+    if size == "s":
+     bill += 15
+    
+else:
+    bill += 25
+    
+if cheese == "y":
+    if size == "s":
+        bill += 15
+else:
+    bill += 25
+    
+print(f"  your total bill is :{bill}\n  please pay {bill}")
