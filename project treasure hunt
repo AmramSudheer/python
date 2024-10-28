@@ -1,0 +1,67 @@
+print("--->>>welcome to adventure game<<<---")
+print("your mission is to find the treasure")
+direction = (input("select left or right:-"))
+if direction == "left":
+    print("congrats yo moved to next level")
+    print( '''                                             888            
+                                               888            
+                                               888            
+ .d8888b .d88b. 88888b.  .d88b. 888d888 8888b. 888888.d8888b  
+d88P"   d88""88b888 "88bd88P"88b888P"      "88b888   88K      
+888     888  888888  888888  888888    .d888888888   "Y8888b. 
+Y88b.   Y88..88P888  888Y88b 888888    888  888Y88b.      X88 
+ "Y8888P "Y88P" 888  888 "Y88888888    "Y888888 "Y888 88888P' 
+                             888                              
+                        Y8b d88P                              
+                         "Y88P" ''')
+                         
+else:
+    print("--->>>game over<<<---")
+    print('''
+                                (()))
+                               /|x x|
+                              /\( - )
+                      ___.-._/\/
+                     /=`_'-'-'/  !!
+                     |-{-_-_-}     !
+                     (-{-_-_-}    !
+                      \{_-_-_}   !
+                       }-_-_-}
+                       {-_|-_}
+                       {-_|_-}
+                       {_-|-_}
+                       {_-|-_}  ZOT
+                   ____%%@ @%%_______ ''')
+
+    
+swim = (input("select swim or wait:-"))
+if swim =="wait":
+    print("you moved to next level")
+    print( '''                                             888            
+                                               888            
+                                               888            
+ .d8888b .d88b. 88888b.  .d88b. 888d888 8888b. 888888.d8888b  
+d88P"   d88""88b888 "88bd88P"88b888P"      "88b888   88K      
+888     888  888888  888888  888888    .d888888888   "Y8888b. 
+Y88b.   Y88..88P888  888Y88b 888888    888  888Y88b.      X88 
+ "Y8888P "Y88P" 888  888 "Y88888888    "Y888888 "Y888 88888P' 
+                             888                              
+                        Y8b d88P                              
+                         "Y88P" ''')
+else:
+        print("attacked by trout")
+        
+door = (input("select red, yellow, blue:-"))
+if door == "red":
+    print("you are burnt by fire \n --->>>game over<<<---")
+elif door == "yellow":
+    print("you win")
+    print( '''  _                                     
+| |                                    
+| |_ _ __ ___  __ _ ___ _   _ _ __ ___ 
+| __| '__/ _ \/ _` / __| | | | '__/ _ \
+| |_| | |  __/ (_| \__ \ |_| | | |  __/
+ \__|_|  \___|\__,_|___/\__,_|_|  \___|      ''')
+
+else:
+    print("eaten by beasts\n --->>>game over<<<---")
