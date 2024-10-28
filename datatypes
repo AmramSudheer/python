@@ -1,0 +1,4 @@
+print(type("rrr"))
+print(type(1245))
+print(type(10202.333))
+print(type(True))
