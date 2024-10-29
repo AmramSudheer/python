@@ -1,0 +1,5 @@
+#nested lists
+fruits = ["aaple","dfvdfv","dvfdfev","vcvxvcv"]
+veg = ["kkfk","xcvdfvd",]
+dozen = [fruits,veg]
+print(dozen)
