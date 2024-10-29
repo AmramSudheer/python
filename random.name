@@ -1,0 +1,5 @@
+import random
+
+friends = ["efffff","efvef","efref","xzxzdx"]
+
+print(random.choice(friends))
